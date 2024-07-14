@@ -23,7 +23,7 @@ h1 {
 
 .p-slider {
   width: 100%;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .p-slide {
@@ -35,6 +35,7 @@ h1 {
   transition: 0.4s;
   padding-top: 20px;
   padding-bottom: 20px;
+  
 }
 
 .slide img {

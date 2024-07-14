@@ -1,0 +1,108 @@
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(
+      rgba(5, 114, 14, 0.61),
+      rgba(4, 128, 15, 0.356)
+    ),
+    url("../../../public/img-1.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+}
+
+
+
+.hero-container{
+  color: #fff;
+  width: 80%;
+  animation: home .7s ease-out;
+}
+
+.hero-container h3{
+  font-size: 25px;
+}
+
+.hero-container h1{
+  color: #00ff00;
+  font-size: 62px;
+}
+
+.hero-container p{
+  color: #f0eeee;
+}
+
+
+.buttons{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-top: 30px;
+  height: 90px;
+}
+
+.buttons .b-contact{
+  width: 150px;
+  height: 40px;
+  background: #00ff00;
+  border-radius: 7px;
+  color: #000;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  transition: .4s;
+}
+
+.buttons .b-contact:hover{
+  scale: 1.06;
+}
+
+.buttons .b-services{
+  width: 150px;
+  height: 40px;
+  background: transparent;
+  border: 3px solid #00ff00;
+  border-radius: 7px;
+  color: #00ff00;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+
+@keyframes home {
+  0%{
+    opacity: 0%;
+  }
+  10%{
+    opacity: 10%;
+  }
+  20%{
+    opacity: 20%;
+  }
+  30%{
+    opacity: 30%;
+  }
+  40%{
+    opacity: 40%;
+  }
+  50%{
+    opacity: 50%;
+  }
+  60%{
+    opacity: 60%;
+  }
+  70%{
+    opacity: 70%;
+  }
+  80%{
+    opacity: 80%;
+  }
+  90%{
+    opacity: 90%;
+  }
+  100%{
+    opacity: 100%;
+  }
+}

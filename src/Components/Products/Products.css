@@ -1,0 +1,159 @@
+.products {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 140px;
+  gap: 80px;
+}
+
+h1 {
+  color: #0ec40e;
+  font-size: 45px;
+}
+
+.p-container {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.p-slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.p-slide {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 30px;
+  padding-left: 5%;
+  transition: 0.4s;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.slide img {
+  width: 160px;
+}
+
+.slide {
+  background-color: #0ec40e1a;
+  min-width: 260px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 13px #c7c7c7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding-top: 10px;
+}
+
+.p-img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.slide button {
+  min-width: 100%;
+  background-color: #0ec40e;
+  height: 40px;
+  border-radius: 0px 0px 5px 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.slide button:hover {
+  background-color: #0ec40ea4;
+}
+
+.slide-details {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+.slide-details h2 {
+  font-size: 19px;
+}
+
+.slide-details p {
+  color: #0ec40e;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.p-container .next {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background-color: #0ec40e;
+  font-size: 18px;
+  color: #fff;
+}
+
+.p-container .prev {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background-color: #0ec40e;
+  font-size: 18px;
+  color: #fff;
+}
+
+.p-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 720px) {
+  .p-container .prev {
+    padding: 20px;
+  }
+
+  .p-container {
+    gap: 15px;
+  }
+  .slide {
+    min-width: 200px;
+  }
+  .p-container .next {
+    padding: 20px;
+  }
+
+  .p-container{
+    width: 90%;
+  }
+
+}
+
+@media (max-width: 400px){
+  .slide {
+    min-width: 180px;
+  }
+}

@@ -1,0 +1,21 @@
+.f-container {
+  width: 80%;
+  margin: 10px auto;
+  display: flex;
+  margin-top: 80px;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #0ec40e;
+  padding: 15px 0;
+}
+
+.f-container p {
+  color: #000;
+}
+
+.f-container div p {
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+  color: #000;
+}
